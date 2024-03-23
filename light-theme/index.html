@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <title>Документация Scout</title>
+</head>
+<body>
+    <header>
+        <div class="header_content space">
+            <div class="header_logo">
+                <a href="/dark-theme/" class="link_noDecoration"> 
+                    <img src="images/logo.png" alt="Робототехника" class="logo">
+                  </a>
+            </div>
+            
+            <div class="header_links">
+                <a href="#about_scout" class="navigationBar_link"><p class="havigationBar_text">О проекте</p></a>
+                <a href="#characteristic_scout" class="navigationBar_link"><p class="havigationBar_text">Детали</p></a>
+                <a href="#settings_scout" class="navigationBar_link"><p class="havigationBar_text">Настройка</p></a>
+            </div>
+        </div>
+        
+    </header>
+
+    <div class="content space">
+        <div class="about_scout count" id="about_scout">
+            <p class="title_paragraf">«Scout» поисково-разведовательный робот</p>
+            <p class="content_text">
+                Проект Scout создан в исследовательских целях, для проверки в первую очередь себя и своих умений. Робот, как и планировалось в начале, создан для помощи человеку с трудно доступными местами. Он оснащён камерой для видеотрансляции и управляется дистанционно с помощью контроллера Проект был создан абсолютно с нуля. Этот робот является единственным вариантом в своём виде. Все комплектующие части: корпус, фиксатор камеры, гусеницы и т.д. были смоделированы нами программой Fusion 360 и распечатаны на 3d-принтере из пластика PETG, а накладки на гусеницах были сделаны из филамента FLEX, который отлично заменяет резину
+            </p>
+            <p class="content_text">
+                Безопасность - Наш робот Scout может осуществлять разведку в зонах с высоким уровнем радиации, области после аварий или катастроф, а также боевые зоны. Где находятся угрозы для человека. Это позволяет уменьшить риск для человеческой жизни, предоставляя данные и информацию из опасных областей
+            </p>
+            <p class="content_text">
+                Технологические возможности - Scout оснащён передовыми технологиями, такими как камера и датчиками. Эти возможности делают его способным собирать, анализировать и передавать данные в реальном времени
+            </p>
+            <p class="content_text">
+                Возможность получения данных с датчиков напрямую в мессенджер Telegram, представляет собой инновационный и удобный метод организации мониторинга в реальном времени. 
+            </p>
+            <p class="content_text">
+                Разработка разведывательно-поискового робота на радиоуправлении с камерой для выполнения поисковых работ в местах, где есть вероятность опасности для жизни человека
+            </p>
+            <p class="content_text">
+                Робота можно использовать там, где по условиям техники безопасности присутствие человека недопустимо. Так же он может быть использован при проведении химических, радиационных и других разведок
+            </p>
+            <div class="images">
+                <img src="images/image_1.png" alt="" class="content_images">
+                <img src="images/image_2.png" alt="" class="content_images">
+            </div>
+        </div>
+        <div class="characteristic_scout count" id="characteristic_scout">
+            <p class="title_paragraf">Детали робота</p>
+            <p class="content_text">
+                - Управление: с помощью джойстика PS2X
+            </p>
+            <p class="content_text">
+                - Микроконтроллер: Arduino Nano
+            </p>
+            <p class="content_text">
+                - Двигатели: DC моторы для приведения в движение
+            </p>
+
+            <p class="content_text">
+                - Сервоприводы: для управления камерой в 180 градусов по вертикали и горизонтали
+            </p>
+
+            <p class="content_text">
+                - Камера: Foxeer для видеонаблюдения или передачи изображения в реальном времени
+            </p>
+
+            <p class="content_text">
+                - Датчик газа: MQ2 для обнаружения различных газов
+            </p>
+            <p class="content_text">
+                - Система гусениц: мощная система для передвижения по различным поверхностям или в труднодоступных местах.
+            </p>
+            <p class="content_text">
+                - Модуль ESP8266: ESP8266 обеспечивает возможность беспроводной связь с Telegram
+            </p>    
+            <div class="images_char">
+                <div class="img_left">
+                    <img src="images/image_3.png" alt="" class="content_images">
+                    <img src="images/image_4.png" alt="" class="content_images">
+                    <img src="images/image_5.png" alt="" class="content_images">
+                    <img src="images/image_9.png" alt="" class="content_images">
+                </div>
+                <div class="img_right">
+                    <img src="images/image_6.png" alt="" class="content_images">
+                    <img src="images/image_7.png" alt="" class="content_images">
+                    <img src="images/image_8.png" alt="" class="content_images">
+                    <img src="images/image_10.png" alt="" class="content_images">
+                </div>   
+            </div>
+        </div>
+        <p class="title_paragraf">Настройка робота</p>
+        <div class="settings_scout count" id="settings_scout">
+            <p class="content_text">
+                Для старта робота просто включите выключатель на корпусе робота и на джойстике.
+            </p>
+            <p class="content_text">
+                После включения через выключатель на корпусе робота должен загореться зеленый светодиод. После включения джойстика на нем должны начать мигать красная и зеленая лампы, что означает, что он подключается к роботу. После успешного подключения мигание должно остановиться, и обе лампы должны гореть красным и зеленым, не выключаясь.
+            </p>
+            <p class="content_text">
+                Для получения данных с датчика необходимо включить робота вблизи модема или точки доступа к интернету с SSID: mma_scout и паролем: 12345678. После успешного подключения робота к интернету на корпусе должен загореться второй зеленый светодиод.
+            </p>
+            <p class="content_text">
+                При покупке робота мы связываемся с клиентами, чтобы установить начального Telegram бота для их связи. Если необходимо изменить Telegram бота, необходимо вскрыть корпус робота и загрузить в ESP8266, который находится внутри, код, который будет прикреплен ниже. Для прошивки кода необходимо установить последнюю версию Arduino IDE и добавить "http://arduino.esp8266.com/stable/package_esp8266com_index.json" в дополнительные ссылки для менеджера плат. Также необходимо установить драйвер CH340 на ваш компьютер. После этого, с помощью ресурсов в интернете, можно загрузить ваш код на ESP8266 для прошивки.
+            </p>
+            <p class="content_text">
+                В коде поменяйте API бота на ваш. При необходимости вы можете изменить данные для SSID и пароля от сети. API, SSID, PASS можно легко найти в коде благодаря комментариям.
+            </p>
+            <p class="content_text">
+                После загрузки подождите, пока все загрузится успешно. При дополнительных вопросах вы можете обратиться в службу поддержки или позвонить на горячую линию, номер которой указан в конце страницы.
+            </p>
+            <a href="files/esp8266settings/esp8266settings.ino" class="download_file"><p class="download_button">Скачать файл</p></a>
+        </div>
+    </div>
+    <footer id="#footer">
+        <div class="footer_content space">
+            <div class="footer_content_left">
+                <a href="support.html" class="link_noDecoration"> 
+                    <p class="footer_text">Поддержать проект</p> 
+                </a>
+                <p class="footer_text">Zhansugurov University</p>
+            </div>
+            
+            <div class="footer_content_right">
+                <p class="footer_text">+7 747 147 51 35</p>
+                <p class="footer_text">muhameddanazamatuly@gmail.com</p>
+            </div>
+        </div>
+    </footer>
+    <button class="round-button" onclick="scrollToTop()">Наверх</button>
+
+
+
+
+
+
+    <script SRC="scripts/INDEX.JS"></script>
+</body>
+</html>
